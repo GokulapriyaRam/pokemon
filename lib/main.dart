@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:task_e2/core/routes/route_strings.dart';
 import 'package:task_e2/core/routes/routes.dart';
-import 'package:task_e2/screens/pages/home.dart';
-import 'package:task_e2/screens/provider/home_provider.dart';
+import 'package:task_e2/screens/home/pages/home.dart';
+import 'package:task_e2/screens/home/provider/home_provider.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
